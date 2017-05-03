@@ -1,0 +1,4 @@
+language: python
+python: "2.7"
+install: pip install -r src\requirements\dev.txt
+scritp: tox -c src\tox.ini
